@@ -1,0 +1,99 @@
+body {
+    margin:0;
+}
+
+
+header {
+    top: 0; 
+    width: 100%; 
+    height: 10em ;
+    background: black;  
+    position: fixed; 
+    overflow:hidden;
+    transition: height 0.5s 0ms;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: row;   
+}
+
+header.fullscreen {
+    height:100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+98,ffffff+100&1+34,0+100 */
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 34%, rgba(0,0,0,0.03) 98%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 34%,rgba(0,0,0,0.03) 98%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,1) 34%,rgba(0,0,0,0.03) 98%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    font-size:2em; 
+    text-shadow: 0 0 4px black,0 0 4px black,0 0 4px black  ; 
+  
+}
+
+
+header a {
+    color:white;
+    padding: 0.1em;
+}
+
+
+header h1{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+header .menu-button{
+    color:white;
+}
+
+header ul a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+
+header ul li{
+    list-style:none;
+    float:left;
+    padding:2em;    
+    padding-top:0;
+}
+
+
+.bild1 {
+    height: 100%;;
+    width: 100%;
+    margin-top:1em;
+}
+
+
+.text-main-body {
+    margin-top:10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.list-contact {
+    margin-top:10em;
+    list-style: none;
+}
+
+.contact-div {
+    display:flex;
+    justify-content: center;
+}
+
+body div ul li h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+body div ul li {
+    font-family: 'Courier New', Courier, monospace;
+}
