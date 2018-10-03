@@ -1,7 +1,34 @@
 @media screen and (min-width:768px) {
 
-    header .menu-button {
-
-        display: none;
+    .bild1 {
+        max-width: 60em;
     }
+
+    .text-main-body {
+        display:flex;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .over-text-image {
+
+        max-width: 60em;
+    }
+
+    .under-text-image {
+
+        max-width: 60em;
+    }
+
+
+    .contact-div {
+        font-size:2.5em;
+    }
+
+    .list-contact {
+       margin-top: 3em;
+
+    }
+
 }

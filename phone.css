@@ -3,13 +3,14 @@ body {
 }
 
 
-header {
+
+#header {
     top: 0; 
     width: 100%; 
-    height: 10em ;
-    background: black;  
+    height: 7em ;
+    background-color:black;  
     position: fixed; 
-    overflow:hidden;
+    overflow: hidden;
     transition: height 0.5s 0ms;
     z-index: 1000;
     display: flex;
@@ -18,25 +19,14 @@ header {
     flex-wrap: row;   
 }
 
-header.fullscreen {
-    height:100%;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+98,ffffff+100&1+34,0+100 */
-    background: -moz-linear-gradient(left, rgba(0,0,0,1) 34%, rgba(0,0,0,0.03) 98%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 34%,rgba(0,0,0,0.03) 98%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(0,0,0,1) 34%,rgba(0,0,0,0.03) 98%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-    font-size:2em; 
-    text-shadow: 0 0 4px black,0 0 4px black,0 0 4px black  ; 
-  
-}
-
 
 header a {
     color:white;
     padding: 0.1em;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
 }
 
 
@@ -46,16 +36,8 @@ header h1{
     
 }
 
-header .menu-button{
-    color:white;
-}
 
-header ul a{
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-}
+
 
 header ul li{
     list-style:none;
@@ -66,27 +48,31 @@ header ul li{
 
 
 .bild1 {
-    height: 100%;;
+    height: 40%;;
     width: 100%;
     margin-top:1em;
 }
 
 
 .text-main-body {
-    margin-top:10em;
+    margin-top:6em;
+    margin-bottom: 4em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
+    flex-direction: column;
+    justify-content: space-around;
+     
 }
 
 .list-contact {
-    margin-top:10em;
+    margin-top:5em;
     list-style: none;
+    padding-bottom: 1em;
 }
 
 .contact-div {
     display:flex;
     justify-content: center;
+    font-size:2.5em;
 }
 
 body div ul li h3{
@@ -96,4 +82,16 @@ body div ul li h3{
 
 body div ul li {
     font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:black;
+    color: white;
+    text-align: right;
+    height:3em;
+    font-style: italic;
 }
